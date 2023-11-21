@@ -1,0 +1,106 @@
+/* Her er lidt demo css */
+
+html {
+    font-size: 16px;
+}
+
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3rem;
+    color: green;
+}
+
+h2 {
+    font-size: 2vw;
+    color: green;
+}
+
+/* Page grid */
+
+#page-content {
+    max-width: 800px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:8px;
+}
+
+#logo {
+    max-width: 80%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dfdfdf;
+}
+
+#nav {
+    margin-top: 5px;
+    padding: 8px;
+    background-color: #dfdfdf;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+    justify-content: flex-end;
+}
+
+.kunde {
+    
+    margin-top: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+
+}
+
+.top {
+    width: 100%;
+    border: 1px solid green;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.box {
+    border: 1px solid blue;
+    width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        color:blueviolet;
+        font-size: 3rem;
+    }
+
+    html {
+        font-size: 20px;
+    }
+}
+
+#test-component h1 {
+    font-size: 3rem;
+}
+
+#test-component2 h1 {
+    font-size: 12px;
+}
